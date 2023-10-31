@@ -8,7 +8,11 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 
 
+df = pd.read_csv("dataset/news.csv")
+
+print(df.shape)
+print(df.head())
 
 
-
-print('git upload and packages import')
+labels = df.label
+print(labels.head())
