@@ -1,2 +1,2 @@
 # fake-news-detection 
-In this project I am taking news data and apply passive agressive classifier to detect fake news from articles
+In this project I am taking news data and apply passive aggressive classifier to detect fake news from articles. TfIdfVectorizer turns a collection of raw documents into a matrix of Tf-Idf features. Then I used the passive agressive classifier on the converted dataset and had an accuracy of 92%. I printed the confusion matrix where we can see that the model performance is pretty good at detecting false news. False positive and False negative values are minimal.
